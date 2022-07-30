@@ -1,0 +1,21 @@
+{
+  "name": "comprimir-imagenes",
+  "version": "1.0.0",
+  "description": "Paquetes NPM para comprimir imagenes y generar sitemap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:sitemap": "node ./assets/js/generate-sitemap.js"
+  },
+  "keywords": [],
+  "author": "Henrry Tandaypan Mariños",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.3.1"
+  },
+  "dependencies": {
+    "sitemap-generator": "^8.5.1"
+  }
+}
